@@ -1,0 +1,20 @@
+class Main{
+    public static void main(String []args){
+        //1process of declaration of array
+        int num1[]={1,2,3,4};
+        System.out.println(num1[0]);
+        //2process of declaration of array
+        int[] num=new int[3];
+        num[0]=12;
+        num[1]=23;
+        num[2]=45;
+        System.out.println(num[0]);
+        //accessinfg the full array
+        for(int i=0;i<3;i++)
+        {
+            System.out.print(num[i]);
+            System.out.print(num1[i]);
+        }
+    }
+    
+}
