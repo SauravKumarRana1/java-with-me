@@ -1,0 +1,7 @@
+class Main{
+    public static void main(String []args){
+        int num1[]={1,2,3,4};
+        System.out.println(num1[0]);
+    }
+    
+}
