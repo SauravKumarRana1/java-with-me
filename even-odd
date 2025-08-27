@@ -1,0 +1,15 @@
+class Solution {
+    static boolean isEven(int n) {
+        // code here
+        return n % 2 == 0;
+    }
+    public static void main(String[] args){
+        Solution ob = new Solution();
+        int N = 10;
+        if(ob.isEven(N)){
+            System.out.println("true");
+        }
+        else{
+        System.out.println("false");
+    }}
+}
